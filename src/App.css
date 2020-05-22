@@ -1,3 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+button {
+  display: inline-block;
+  padding: 10px 25px;
+  margin-right: 10px;
+  cursor: pointer;
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-image: linear-gradient(0deg, #e52e71,
+      #ff8a00);
+  font-size: 1rem;
+  color: #eee;
+  outline: none;
+  border-radius: 50px;
+  border: none;
+  border-top: 1px solid white;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, .5);
+  transition: transform .2s;
+}
+
+button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, .3);
+}
+
+button:active {
+  transform: translateY(1px);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, .8);
+}
+
+h1 {
+  font-family: 'Bigelow Rules';
+  font-size: 72px;
+  color: #0ccac4;
+}
+
 .App {
   text-align: center;
 }
@@ -28,10 +64,13 @@
   color: #61dafb;
 }
 
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
